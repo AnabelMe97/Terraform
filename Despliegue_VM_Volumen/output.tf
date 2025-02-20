@@ -12,3 +12,4 @@ output "ssh" {
 output "url" {
   value = "https://${aws_eip.eip.public_ip}"
 }
+
